@@ -7,10 +7,10 @@ if [ $2 != '' ] && [ -f $2 ] ; then
 fi
 
 #botname
-ircnick=calcportal
+ircnick=saplinglearning
 
 #thing you hate most in the world
-minusminus=calcportal
+minusminus=saplinglearning
 
 tail -f .botfile | openssl s_client -connect irc.cat.pdx.edu:6697 | while true; do
   if [[ -z $started ]] ; then
